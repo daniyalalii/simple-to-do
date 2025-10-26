@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* justify-content: center; */
+    background-color: #4debc6;
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.addDetails {
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    background-color: bisque;
+}
+
+.addDetails input {
+    margin: 12px 30px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff8f0;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.addDetails input:focus {
+    border-color: #f4a261;
+    box-shadow: 0 0 8px rgba(244, 162, 97, 0.6);
+    outline: none;
+}
+
+.addDetails input:hover {
+    background-color: #fff0e0;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 7px 7px;
+    margin-bottom: 9px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(222, 128, 82);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(255, 154, 104);
+}
+
+
+h2 {
+    padding-left: 9px;
+    /* background-color: aquamarine; */
+}
+
+.tasks {
+    margin-top: 5px;
+    background-color: aliceblue;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 9px;
+    height: 57%;
+    /* border: 2px solid black; */
+}
+
+table {
+    width: 100%;
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: rgb(173, 173, 173);
+    border-collapse: collapse;
+    color: aliceblue;
+}
+
+tr {
+    text-align: left;
+}
+
+th {
+    color: #333;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #b3f0fd;
+}
+
+td {
+    border-bottom: 1px solid #888;
+    padding: 5px;
+}
+
+tr:hover td {
+    color: #333;
+    background-color: #dcdcdc;
+}
+
+.task-table {
+    max-height: 75%; 
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
